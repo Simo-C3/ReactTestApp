@@ -21,7 +21,7 @@ function Square(props) {
     handleClick(i) {
         const squares = this.state.squares.slice();
         const tani = ['1単位', '2単位', '6単位', '4単位', '10単位', '落単'];
-        const tani1 = '不正行為';
+        const tani1 = '不正';
         const tani2 = '退学';
         var l;
         const x = Math.random();
